@@ -17,15 +17,6 @@ fun main(args:Array<String>) {
     val esSueldoMayorAlEstablecido = if (sueldo == 12.20) true else false
     // EXPRESION ? X:Y
     // calcularSueldo(1000.00,14.00)
-    calcularSueldo(1000.00, 14.00, null)
-    calcularSueldo (
-            tasa = 16.00,
-            sueldo = 800.00,
-            calculoEspecial = null
-    ) //Parámetros nombrados
-    calcularSueldo(700.00) //Se puede enviar solo el sueldo porque la tasa ya está definida en la función
-    calcularSueldo(sueldo = 650.00)
-
     val arregloConstante: Array<Int> = arrayOf(1,2,3)
     val arregloCumpleanos: ArrayList<Int> = arrayListOf(30,31,22,23,20)
     print(arregloCumpleanos)
@@ -80,25 +71,44 @@ fun main(args:Array<String>) {
             }
     println(respuestaFilter)
     println(arregloCumpleanos)
-}
 
+    //Any
+    //And -> Todo verdadero es verdadero, el resto falso, si todos cumplen la condicion es verdadero
+    //Or -> Todo falso es falso, el resto verdadero, si uno cumple la condicion ya es verdadero
+    //All (some) -> Representa al AND
+    //Any (every)-> Representa al OR
+    // Devuelve una expresion TRUE o FALSE
 
-
-
-
-fun calcularSueldo (
-        sueldo: Double, //Requerido
-        tasa: Double = 12.00, //Requerido (Tiene valor por defecto)
-        calculoEspecial: Int? = null //(Pueden ser nulos)
-        // int? debe especificarse cuando llame la función
-        // null no es necesario especificar cuando llame la función
-): Double {
-    if (calculoEspecial != null) {
-        return sueldo * tasa * calculoEspecial
-    } else {
-        return sueldo * tasa
+    val respuestaAny:Boolean = arregloCumpleanos.any {
+        iterador:Int ->
+            return@any iterador<25
     }
+    println(respuestaAny)
+
+    val respuestaAll:Boolean = arregloCumpleanos.all {
+        iterador:Int ->
+        return@all iterador > 65
+    }
+    println(respuestaAll)
+
+    //Reduce
+    // 1. Devuelve un acumulador
+    // Acumulador = 0
+
+    val respuestaReduce:Int = arregloCumpleanos.reduce {
+        acumulador, iteracion ->
+        return@reduce acumulador + iteracion
+    }
+    println(respuestaReduce)
+
+    // Fold
+    val respuestaFold: Int = arregloCumpleanos.fold(
+            100,
+                {
+                    acumulador, iteracion ->
+                    return@fold acumulador - iteracion
+                }
+    )
+    println(respuestaFold)
 }
-fun imprimirMensaje (){ //Unit = void
-    println("")
-}
+
