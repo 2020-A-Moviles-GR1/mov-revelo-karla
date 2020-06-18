@@ -110,5 +110,51 @@ fun main(args:Array<String>) {
                 }
     )
     println(respuestaFold)
+
+    // Ejercicio 1
+    // Reducir el daño del 20% inicialmente
+    // Todos los daños mayores a 18 afectaran a la vida del jugador
+
+    val vidaActual: Double = arregloCumpleanos
+            .map { it * 0.8 }
+            .filter { it > 18 }
+            .fold(100.00, {acc , d -> acc - d})
+            .also { println(it) }
+
 }
 
+// Clases Abstractas
+
+abstract class NumerosJava{  // val nuevosNumeros = Numeros(1,2)
+    protected val numeroUno:Int
+    private val numeroDos:Int
+    constructor(uno:Int, dos:Int){
+        numeroUno = uno
+        numeroDos = dos
+    }
+}
+abstract class Numeros( // val nuevosNumeros = Numeros(1,2)
+        protected val numeroUno:Int,
+        protected val numeroDos:Int
+){
+}
+
+class Suma(
+        uno: Int,
+        dos: Int
+) : Numeros(uno, dos) {
+    fun sumar():Int{
+        // this.uno
+        return this.numeroUno + this.numeroDos
+    }
+}
+class SumaDos(
+        public var uno: Int,
+        public var dos: Int
+) : Numeros(uno, dos) {
+    fun sumar():Int{
+        this.uno
+        this.dos
+        return this.numeroUno + this.numeroDos
+    }
+}
