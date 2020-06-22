@@ -121,6 +121,28 @@ fun main(args:Array<String>) {
             .fold(100.00, {acc , d -> acc - d})
             .also { println(it) }
 
+    val nuevoNumeroUno = SumaDosNumerosDos(1,1)
+    val nuevoNumeroDos = SumaDosNumerosDos(null,1)
+    val nuevoNumeroTres = SumaDosNumerosDos(1,null)
+    val nuevoNumeroCuatro = SumaDosNumerosDos(null,null)
+
+    println(SumaDosNumerosDos.arregloNumeros)
+    SumaDosNumerosDos.agregarNumero(1)
+    println(SumaDosNumerosDos.arregloNumeros)
+    SumaDosNumerosDos.eliminarNumero(0)
+    println(SumaDosNumerosDos.arregloNumeros)
+
+    val  nombre : String?=null
+    imprimirNombre("Karlita")
+
+}
+
+fun imprimirNombre(nombre :String?){
+    println(nombre?.length)
+    println(nombre?.toInt())
+    println(nombre?.toDouble())
+
+    val numeroCaracteres: Int ? = nombre?.length
 }
 
 // Clases Abstractas
@@ -134,8 +156,8 @@ abstract class NumerosJava{  // val nuevosNumeros = Numeros(1,2)
     }
 }
 abstract class Numeros( // val nuevosNumeros = Numeros(1,2)
-        protected val numeroUno:Int,
-        protected val numeroDos:Int
+        protected var numeroUno:Int,
+        protected var numeroDos:Int
 ){
 }
 
@@ -156,5 +178,47 @@ class SumaDos(
         this.uno
         this.dos
         return this.numeroUno + this.numeroDos
+    }
+}
+
+class SumaDosNumerosDos(
+        uno: Int,
+        dos: Int
+): Numeros(uno,dos) {
+    init {
+        println("Hola init")
+    }
+
+    constructor(uno: Int?, dos: Int) : this(
+            if (uno == null) 0 else uno,
+            dos
+    ) {
+        println("Hola 1")
+    }
+
+    constructor(uno: Int, dos: Int?) : this(
+            uno,
+            if (dos == null) 0 else dos
+    ) {
+        println("Hola 2")
+    }
+
+    constructor(uno: Int?, dos: Int?) : this(
+            if (uno == null) 0 else uno,
+            if (dos == null) 0 else dos
+    ) {
+        println("Hola 3")
+    }
+
+    companion object {
+        //para toda declaracion estatica
+        val arregloNumeros = arrayListOf(1, 2, 3, 4)
+        fun agregarNumero(nuevoNumero: Int) {
+            this.arregloNumeros.add(nuevoNumero)
+        }
+
+        fun eliminarNumero(posicionNumero: Int) {
+            this.arregloNumeros.removeAt(posicionNumero)
+        }
     }
 }
