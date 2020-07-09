@@ -6,7 +6,7 @@ class Musculo (
     var nombreEj: String
 ) {
     override fun toString(): String {
-        return "${nombreMusculo},${ubicacionMusculo},${definicion}, " +
-                "${masaMuscular}, ${nombreEj}\n"
+        return "${nombreMusculo},${ubicacionMusculo},${definicion}," +
+                "${masaMuscular},${nombreEj}\n"
     }
 }

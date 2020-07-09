@@ -16,8 +16,8 @@ fun main ( args:Array<String> ) {
         }
         2 -> {
             val menuMusculo = ControlMusculo()
-            //menuMusculo.menu()
-            menuMusculo.eliminarMusculoEjercicio("abdominales")
+            menuMusculo.menu()
+            //menuMusculo.eliminarMusculoEjercicio("abdominales")
         }
     }
     // val uno = ControlEjercicio()

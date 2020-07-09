@@ -149,7 +149,7 @@ class ControlMusculo {
 
     fun eliminarMusculoEjercicio(nombreEjercicio1: String){
 
-        var vector1: MutableList<String> = mutableListOf()
+        var vectorA: MutableList<String> = mutableListOf()
         val vector2: MutableList<String> = mutableListOf("","","","","","")
         var cont = 0
         val indice: Int
@@ -160,22 +160,20 @@ class ControlMusculo {
         bufferedReader.useLines { lines -> lines.forEach { lineas.add(it) } }
 
         for (i: Int in lineas.indices) {
-            vector1 = lineas[i].split(",") as MutableList<String>
-            if (vector1[4]==nombreEjercicio1){
-                print("entre al if")
-                vector1=vector2
+            vectorA = lineas[i].split(",") as MutableList<String>
+            if (vectorA[4]== nombreEjercicio1){
+                //print("entre al if")
+                vectorA=vector2
             } else {
                 cont = cont + 1
             }
-            lineaReEscrita = vector1.joinToString(separator = ",")+"\n"
-            //print(lineaReEscrita)
-            if(lineaReEscrita!=",,,,,"+"\n"){
+            lineaReEscrita = vectorA.joinToString(separator = ",")+"\n"
+            if(lineaReEscrita!=",,,,"+"\n"){
                 lineasNuevasUni.add(lineaReEscrita)
             }
-
         }
         if(cont==lineas.size){
-            println("error lineas size")
+            //println("error lineas size")
         }
         for (iter: Int in lineasNuevasUni.indices) {
             if(iter==0){

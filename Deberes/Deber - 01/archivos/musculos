@@ -1,18 +1,17 @@
-isquiotibiales,piernas,true, 0.6, sentadillas
-gluteo mayor,gluteos,true, 0.6, sentadillas
-gluteo medio,gluteos,true,0.75, sentadillas
-cuadriceps,piernas,true,0.5, sentadillas
-isquiotibiales,piernas,false,0.65, zancadas
-gluteo mayor,piernas,true,0.6, zancadas
-cuadriceps,piernas,true,0.35, zancadas
-triceps,brazos,false,0.25, flexiones de pecho
-deltoides,hombro,false,0.35, flexiones de pecho
-cuadriceps,piernas,true,0.5, flexiones de pecho
-femorales,piernas,true,0.6, elevacion de pelvis
-gluteo mayor,gluteos,true,0.75, elevacion de pelvis
-oblicuo interno,abdomen,true,0.66, plancha
-gemelos,pantorrillas,false,0.3, elevacion de talones
-cuadriceps,piernas,true,0.75, burpees
-triceps,brazos,false,0.4, burpees
-recto abdominal,abdomen,true,0.6, abdominales
-oblicuo externo,abdomen,true,0.6, abdominales
+gluteo mayor,gluteos,true,0.6,sentadillas
+gluteo medio,gluteos,true,0.75,sentadillas
+cuadriceps,piernas,true,0.5,sentadillas
+isquiotibiales,piernas,false,0.65,sentadillas
+isquiotibiales,piernas,false,0.65,zancadas
+gluteo mayor,piernas,true,0.6,zancadas
+cuadriceps,piernas,true,0.35,zancadas
+pectoral,pecho,false,0.5,flexiones de pecho
+triceps,brazos,false,0.25,flexiones de pecho
+deltoides,hombro,false,0.35,flexiones de pecho
+cuadriceps,piernas,true,0.5,flexiones de pecho
+femorales,piernas,true,0.6,elevacion de pelvis
+gluteo mayor,gluteos,true,0.75,elevacion de pelvis
+gemelos,pantorrillas,false,0.3,elevacion de talones
+cuadriceps,piernas,true,0.75,burpees
+triceps,brazos,false,0.4,burpees
+pectoral,pecho,false,0.5,burpees
