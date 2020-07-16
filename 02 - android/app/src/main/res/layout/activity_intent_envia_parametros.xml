@@ -4,25 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BListViewActivity">
-
-    <ListView
-        android:id="@+id/lv_numeros"
-        android:layout_height="487dp"
-        android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_width="wrap_content" />
+    tools:context=".IntentEnviaParametros">
 
     <Button
-        android:id="@+id/bt_anadirEntrenador"
+        android:id="@+id/btn_devolver_respuesta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#33873E"
-        android:text="Añadir"
+        android:text="DEVOLVER RESPUESTA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lv_numeros" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

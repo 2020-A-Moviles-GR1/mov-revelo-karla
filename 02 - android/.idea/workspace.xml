@@ -9,7 +9,22 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="582b870a-7ac2-4bc2-a0f1-dcfbe27f8dab" name="Default Changelist" comment="" />
+    <list default="true" id="582b870a-7ac2-4bc2-a0f1-dcfbe27f8dab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/moviles/IntentEnviaParametros.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_intent_envia_parametros.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/moviles/BListViewActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/moviles/BListViewActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/moviles/Entrenador.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/moviles/Entrenador.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_b_list_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_b_list_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,11 +64,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1594642870144" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1594901633527" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.1430724177">
+      <recent name="com.example.moviles" />
+    </key>
+    <key name="android.template.-1884958277">
       <recent name="com.example.moviles" />
     </key>
   </component>
@@ -215,10 +233,10 @@
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
     <state x="167" y="125" width="1333" height="975" key="com.android.tools.idea.avdmanager.AvdListDialog/67.27.1533.1173@67.27.1533.1173" timestamp="1593696511850" />
-    <state x="489" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1594643060368">
+    <state x="489" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1594901634035">
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
-    <state x="489" y="440" key="com.intellij.ide.util.TipDialog/67.27.1533.1173@67.27.1533.1173" timestamp="1594643060368" />
+    <state x="489" y="440" key="com.intellij.ide.util.TipDialog/67.27.1533.1173@67.27.1533.1173" timestamp="1594901634035" />
     <state x="497" y="283" key="run.anything.popup" timestamp="1593696555764">
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
