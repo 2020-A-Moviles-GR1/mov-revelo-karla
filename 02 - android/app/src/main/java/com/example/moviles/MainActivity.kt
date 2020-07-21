@@ -20,7 +20,21 @@ class MainActivity : AppCompatActivity() {
                 // this.irCicloDeVida()
                 irListView()
             }
+        btn_intent_respuesta
+            .setOnClickListener { boton ->
+                irAIntentConRespuesta()
+            }
 
+    }
+
+    fun irAIntentConRespuesta(){
+        val intentExplicito = Intent (
+            this,
+            IntentEnviaParametros::class.java
+        )
+
+        intentExplicito.putExtra("numero",2)
+        startActivity(intentExplicito)
     }
 
     fun irCicloDeVida() {
