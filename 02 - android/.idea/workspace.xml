@@ -6,10 +6,20 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Intents" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="582b870a-7ac2-4bc2-a0f1-dcfbe27f8dab" name="Default Changelist" comment="" />
+    <list default="true" id="582b870a-7ac2-4bc2-a0f1-dcfbe27f8dab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/moviles/IntentEnviaParametros.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/moviles/IntentEnviaParametros.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/moviles/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/moviles/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_intent_envia_parametros.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_intent_envia_parametros.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1594901633527" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1595247067628" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -194,22 +204,22 @@
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
     <state x="416" y="370" width="824" height="484" key="AndroidCreateResourceFileDialog/67.27.1533.1173@67.27.1533.1173" timestamp="1594643389875" />
-    <state width="1487" height="368" key="GridCell.Tab.0.bottom" timestamp="1594729385422">
+    <state width="1487" height="368" key="GridCell.Tab.0.bottom" timestamp="1595300559283">
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
-    <state width="1487" height="368" key="GridCell.Tab.0.bottom/67.27.1533.1173@67.27.1533.1173" timestamp="1594729385422" />
-    <state width="1487" height="368" key="GridCell.Tab.0.center" timestamp="1594729385422">
+    <state width="1487" height="368" key="GridCell.Tab.0.bottom/67.27.1533.1173@67.27.1533.1173" timestamp="1595300559283" />
+    <state width="1487" height="368" key="GridCell.Tab.0.center" timestamp="1595300559283">
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
-    <state width="1487" height="368" key="GridCell.Tab.0.center/67.27.1533.1173@67.27.1533.1173" timestamp="1594729385422" />
-    <state width="1487" height="368" key="GridCell.Tab.0.left" timestamp="1594729385421">
+    <state width="1487" height="368" key="GridCell.Tab.0.center/67.27.1533.1173@67.27.1533.1173" timestamp="1595300559283" />
+    <state width="1487" height="368" key="GridCell.Tab.0.left" timestamp="1595300559283">
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
-    <state width="1487" height="368" key="GridCell.Tab.0.left/67.27.1533.1173@67.27.1533.1173" timestamp="1594729385421" />
-    <state width="1487" height="368" key="GridCell.Tab.0.right" timestamp="1594729385422">
+    <state width="1487" height="368" key="GridCell.Tab.0.left/67.27.1533.1173@67.27.1533.1173" timestamp="1595300559282" />
+    <state width="1487" height="368" key="GridCell.Tab.0.right" timestamp="1595300559283">
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
-    <state width="1487" height="368" key="GridCell.Tab.0.right/67.27.1533.1173@67.27.1533.1173" timestamp="1594729385422" />
+    <state width="1487" height="368" key="GridCell.Tab.0.right/67.27.1533.1173@67.27.1533.1173" timestamp="1595300559283" />
     <state x="322" y="247" key="SettingsEditor" timestamp="1593696511472">
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
@@ -218,10 +228,14 @@
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
     <state x="167" y="125" width="1333" height="975" key="com.android.tools.idea.avdmanager.AvdListDialog/67.27.1533.1173@67.27.1533.1173" timestamp="1593696511850" />
-    <state x="489" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1594901634035">
+    <state x="489" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1595247068020">
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
-    <state x="489" y="440" key="com.intellij.ide.util.TipDialog/67.27.1533.1173@67.27.1533.1173" timestamp="1594901634035" />
+    <state x="489" y="440" key="com.intellij.ide.util.TipDialog/67.27.1533.1173@67.27.1533.1173" timestamp="1595247068020" />
+    <state x="567" y="456" width="523" height="312" key="edit.logcat.filter.dialog.dimensions" timestamp="1595248951113">
+      <screen x="67" y="27" width="1533" height="1173" />
+    </state>
+    <state x="567" y="456" width="523" height="312" key="edit.logcat.filter.dialog.dimensions/67.27.1533.1173@67.27.1533.1173" timestamp="1595248951113" />
     <state x="497" y="283" key="run.anything.popup" timestamp="1593696555764">
       <screen x="67" y="27" width="1533" height="1173" />
     </state>
