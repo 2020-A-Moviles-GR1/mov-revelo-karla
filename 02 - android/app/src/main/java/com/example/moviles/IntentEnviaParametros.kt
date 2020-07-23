@@ -30,5 +30,30 @@ class IntentEnviaParametros : AppCompatActivity() {
                 // Método clase
                 finish()
             }
+        btn_resp_aceptar
+            .setOnClickListener {
+                val nombre = "Karlita"
+                val edad = 21
+                val intentRespuesta = Intent()
+                intentRespuesta.putExtra("nombre", nombre)
+                intentRespuesta.putExtra("edad", edad)
+                // this.setResult()
+                setResult(
+                    RESULT_OK,
+                    intentRespuesta
+                )
+                // this.finish()
+                finish()
+            }
+
+        btn_resp_cancelar
+            .setOnClickListener {
+                val intentCancelado = Intent()
+                setResult(
+                    RESULT_CANCELED,
+                    intentCancelado
+                )
+                finish()
+            }
     }
 }
