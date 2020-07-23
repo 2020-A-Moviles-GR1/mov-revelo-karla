@@ -50,4 +50,14 @@
         app:layout_constraintStart_toStartOf="@+id/btn_intent_respuesta"
         app:layout_constraintTop_toBottomOf="@+id/btn_intent_respuesta" />
 
+    <Button
+        android:id="@+id/btn_resp_propia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="RESP PROPIA"
+        app:layout_constraintEnd_toEndOf="@+id/btn_intent_implicito"
+        app:layout_constraintStart_toStartOf="@+id/btn_intent_implicito"
+        app:layout_constraintTop_toBottomOf="@+id/btn_intent_implicito" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
