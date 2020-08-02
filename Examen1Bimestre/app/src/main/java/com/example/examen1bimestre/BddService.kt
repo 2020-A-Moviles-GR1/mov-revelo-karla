@@ -2,43 +2,49 @@ package com.example.examen1bimestre
 
 class BddService {
     companion object{
-        var listaCanciones= arrayListOf<Cancion>(Cancion("Kids","MGMT","Easy Listening","Am,Bm,C"))
-        var listaAcordes= arrayListOf<Acorde>(
-            Acorde("c","do",R.drawable.c),
-            Acorde("cm","dom",R.drawable.dom),
-            Acorde("d","re",R.drawable.d),
-            Acorde("dm","rem",R.drawable.rem),
-            Acorde("e","mi",R.drawable.e),
-            Acorde("em","mim",R.drawable.mim),
-            Acorde("f","fa",R.drawable.f),
-            Acorde("fm","fam",R.drawable.fam),
-            Acorde("g","sol",R.drawable.g),
-            Acorde("gm","solm",R.drawable.solm),
-            Acorde("a","la",R.drawable.a),
-            Acorde("am","lam",R.drawable.lam),
-            Acorde("b","si",R.drawable.b),
-            Acorde("bm","sim",R.drawable.sim)
+        var listaEjercicios= arrayListOf<Ejercicio>(Ejercicio("Sentadillas","0.5","4","Sí", "Gluteo mayor"))
+        var listaMusculos1 = arrayListOf<Musculo>(Musculo("gluteo mayor","gluteos","20.5","Sí"));
+        var listaMusculos= arrayListOf<Musculo>(
+            Musculo("gluteo mayor","gluteos","20.5","Sí"),
+            Musculo("gluteo menor","gluteos","22.5","Sí"),
+            Musculo("cuadriceps","piernas","10.5","Sí"),
+            Musculo("isquiotibiales","piernas","12.5","Sí"),
+            Musculo("recto abdominal","abdomen","11.5","Sí"),
+            Musculo("pectoral","pecho","23.5","Sí"),
+            Musculo("gluteo mayor","gluteos","20.5","Sí"),
+            Musculo("femorales","piernas","7.5","Sí"),
+            Musculo("gluteo mayor","gluteos","20.5","Sí")
         )
-        fun buscarAcorde(chord:String): Acorde? {
-            var acordeEncontrado=listaAcordes.find{acorde -> acorde.notacionInglesa
-                .equals(chord.toLowerCase())||acorde.notacionLatina.equals(chord.toLowerCase()) }
-            return acordeEncontrado
+        fun buscarMusculo(valor:String): Musculo? {
+            var musculoE= listaMusculos.find{ musculo -> musculo.nombre
+                .equals(valor.toLowerCase())||musculo.ubicacion.equals(valor.toLowerCase()) }
+            return musculoE
         }
 
-        fun agregarCancion(cancion:Cancion){
-            listaCanciones.add(cancion)
+        fun agregarEjercicio(ejercicio:Ejercicio){
+            listaEjercicios.add(ejercicio)
         }
-        fun elimarCancion(cancion: Cancion){
-            listaCanciones.remove(cancion)
+        fun eliminarEjercicio(ejercicio: Ejercicio){
+            listaEjercicios.remove(ejercicio)
+        }
+        fun modificarEjercicio(posicion:Int,ejercicio: Ejercicio){
+            listaEjercicios.set(posicion,ejercicio);
+        }
+        fun recuperarEjercicio(posicion: Int):Ejercicio{
+            return listaEjercicios.get(posicion);
+        }
 
+        fun agregarMusculo(musculo: Musculo){
+            listaMusculos1.add(musculo)
         }
-        fun modificarCancion(posicion:Int,cancion: Cancion){
-            listaCanciones.set(posicion,cancion);
+        fun eliminarMusculo(musculo: Musculo){
+            listaMusculos1.remove(musculo)
         }
-        fun obtenerCancion(posicion: Int):Cancion{
-            return listaCanciones.get(posicion);
+        fun modificarMusculo(posicion:Int, musculo: Musculo){
+            listaMusculos1.set(posicion,musculo)
         }
-
-
+        fun recuperarMusculo(posicion:Int): Musculo{
+            return listaMusculos1.get(posicion)
+        }
     }
 }

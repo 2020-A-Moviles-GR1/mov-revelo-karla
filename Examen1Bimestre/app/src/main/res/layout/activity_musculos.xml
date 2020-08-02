@@ -4,49 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF9800"
-    tools:context=".AcordesActivity">
+    android:background="#88CC698B"
+    tools:context=".MusculosActivity">
 
     <Button
-        android:id="@+id/btn_acordes_a_lista"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:id="@+id/btn_musculos_a_lista"
+        android:layout_width="207dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="1dp"
-        android:background="#8BC34A"
+        android:background="#432E67"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:text="Lista Canciones"
+        android:text="Lista Ejercicios"
         android:textColor="#FBFBFB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_agregar_a_main"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lv_acordes"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/lv_musculos"
+        app:layout_constraintVertical_bias="0.478" />
 
     <Button
-        android:id="@+id/btn_acordes_a_main"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:id="@+id/btn_musculos_a_main"
+        android:layout_width="187dp"
+        android:layout_height="51dp"
         android:layout_marginTop="16dp"
-        android:background="#8BC34A"
+        android:layout_marginEnd="4dp"
+        android:background="#432E67"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:text="Menu Principal"
         android:textColor="#FBFBFB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lv_acordes"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/lv_musculos"
+        app:layout_constraintVertical_bias="0.48" />
 
     <TextView
-        android:id="@+id/tv_acordes"
+        android:id="@+id/tv_musculos"
         android:layout_width="377dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
-        android:background="#000000"
+        android:background="#3C4059"
         android:backgroundTint="#9A000000"
-        android:text="Acordes Cancion"
+        android:text="Músculo de Ejercicio"
         android:textAlignment="center"
         android:textColor="#F8F8F8"
         android:textSize="30sp"
@@ -55,19 +57,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/lv_acordes"
-        android:layout_width="300dp"
-        android:layout_height="173dp"
-        android:layout_marginTop="10dp"
+        android:id="@+id/lv_musculos"
+        android:layout_width="341dp"
+        android:layout_height="324dp"
+        android:layout_marginTop="24dp"
         android:background="#97FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_chord">
+        app:layout_constraintTop_toBottomOf="@+id/tv_ejercicio_y_musculo">
 
     </ListView>
 
     <TextView
-        android:id="@+id/tv_cancion_y_autor"
+        android:id="@+id/tv_ejercicio_y_musculo"
         android:layout_width="295dp"
         android:layout_height="46dp"
         android:layout_marginTop="16dp"
@@ -78,17 +80,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_acordes" />
-
-    <ImageView
-        android:id="@+id/iv_chord"
-        android:layout_width="130dp"
-        android:layout_height="121dp"
-        android:layout_marginTop="5dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_cancion_y_autor"
-        app:srcCompat="@drawable/guitarra2" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_musculos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

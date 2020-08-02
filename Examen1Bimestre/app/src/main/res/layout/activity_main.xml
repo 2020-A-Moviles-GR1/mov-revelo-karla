@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#6A6A6A"
-    android:backgroundTint="#FF9800"
+    android:backgroundTint="#88CC698B"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:background="#000000"
-        android:backgroundTint="#9A000000"
+        android:backgroundTint="#3C4059"
         android:text="Menu Principal"
         android:textAlignment="center"
         android:textColor="#F8F8F8"
@@ -24,12 +24,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_listar_canciones"
+        android:id="@+id/btn_listar_ejercicios"
         android:layout_width="186dp"
         android:layout_height="66dp"
         android:layout_marginTop="28dp"
-        android:background="#3F51B5"
-        android:text="Lista de canciones"
+        android:background="#850C35"
+        android:text="Visualizar lista de ejercicios"
         android:textColor="#FDFDFD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
@@ -37,27 +37,27 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/btn_agregar_cancion"
+        android:id="@+id/btn_agregar_ejercicio"
         android:layout_width="191dp"
         android:layout_height="58dp"
         android:layout_marginTop="28dp"
-        android:background="#3F51B5"
-        android:text="Agregar canción"
+        android:background="#850C35"
+        android:text="Añadir  ejercicio"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_listar_canciones" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_listar_ejercicios" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="362dp"
-        android:layout_height="334dp"
+        android:id="@+id/imageView3"
+        android:layout_width="240dp"
+        android:layout_height="253dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.602"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_agregar_cancion"
-        app:layout_constraintVertical_bias="0.592"
-        app:srcCompat="@drawable/guitarra2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_agregar_ejercicio"
+        app:srcCompat="@drawable/inicio" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

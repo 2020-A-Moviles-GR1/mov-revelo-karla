@@ -5,64 +5,77 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:backgroundTint="#FF9800"
-    tools:context=".CancionActivity">
+    android:backgroundTint="#88CC698B"
+    tools:context=".EjercicioActivity">
 
     <Button
-        android:id="@+id/btn_a_acordeslist"
+        android:id="@+id/btn_musculoslist"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
-        android:background="#3F51B5"
-        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="68dp"
+        android:background="#850C35"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:text="Ver acordes"
+        android:text="Visualizar músculos"
         android:textColor="#FAF8F8"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <Button
-        android:id="@+id/btn_cancion_a_main"
+        android:id="@+id/btn_ejercicio_a_main"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:background="#8BC34A"
+        android:layout_marginEnd="4dp"
+        android:background="#432E67"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:text="Menu Principal"
         android:textColor="#FBFBFB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_eliminar" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_eliminar"
+        app:layout_constraintVertical_bias="0.265" />
 
     <TextView
-        android:id="@+id/tv_acordes"
+        android:id="@+id/tv_musculos"
         android:layout_width="147dp"
         android:layout_height="18dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="20dp"
         android:text="Any"
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/tv_genero" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_repeticiones" />
 
     <TextView
-        android:id="@+id/tv_genero"
+        android:id="@+id/tv_eliminaGrasa"
         android:layout_width="147dp"
         android:layout_height="18dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:text="Any"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/tv_musculos" />
+
+    <TextView
+        android:id="@+id/tv_repeticiones"
+        android:layout_width="147dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
         android:text="Any"
         android:textColor="#FDFDFD"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/tv_autor" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_duracion" />
 
     <TextView
-        android:id="@+id/tv_autor"
+        android:id="@+id/tv_duracion"
         android:layout_width="147dp"
         android:layout_height="18dp"
-        android:layout_marginStart="80dp"
+        android:layout_marginStart="52dp"
         android:layout_marginTop="20dp"
         android:text="Any"
         android:textColor="#FFFFFF"
@@ -75,10 +88,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
         android:layout_marginTop="20dp"
-        android:text="@string/acordes"
-        android:textColor="#3F51B5"
+        android:text="Músculos:"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="20dp"
+        android:text="¿Elimina grasa?"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView5"
@@ -86,8 +110,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
         android:layout_marginTop="20dp"
-        android:text="@string/autor"
-        android:textColor="#3F51B5"
+        android:text="Duración:"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -97,8 +121,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
         android:layout_marginTop="20dp"
-        android:text="@string/genero"
-        android:textColor="#3F51B5"
+        android:text="Repeticiones:"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -109,7 +133,7 @@
         android:layout_marginStart="72dp"
         android:layout_marginTop="20dp"
         android:text="@string/nombre"
-        android:textColor="#3F51B5"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -118,9 +142,8 @@
         android:layout_width="376dp"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#9A090909"
-        android:text="@string/cancion_seleccionada"
+        android:background="#3C4059"
+        android:text="Ejercicio"
         android:textAlignment="center"
         android:textColor="#FDFDFD"
         android:textSize="30sp"
@@ -133,7 +156,7 @@
         android:id="@+id/tv_nombre"
         android:layout_width="147dp"
         android:layout_height="18dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="56dp"
         android:layout_marginTop="20dp"
         android:text="Any"
         android:textColor="#FFFFFF"
@@ -145,27 +168,25 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
-        android:background="#3F51B5"
-        android:backgroundTint="#3F51B5"
+        android:background="#850C35"
         android:lineSpacingExtra="30sp"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:text="Modificar Cancion"
+        android:text="Modificar Ejercicio"
         android:textColor="#F8F8F8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_a_acordeslist" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_musculoslist" />
 
     <Button
         android:id="@+id/btn_eliminar"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
-        android:background="#3F51B5"
-        android:backgroundTint="#3F51B5"
+        android:background="#850C35"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:text="Eliminar Canción"
+        android:text="Eliminar Ejercicio"
         android:textColor="#FAF8F8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -173,19 +194,20 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_modificar" />
 
     <Button
-        android:id="@+id/btn_cancion_a_lista"
+        android:id="@+id/btn_ejercicio_a_lista"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginEnd="1dp"
-        android:background="#8BC34A"
+        android:background="#432E67"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:text="Lista Canciones"
+        android:text="Lista Ejercicios"
         android:textColor="#FBFBFB"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_cancion_a_main"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ejercicio_a_main"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_eliminar" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_eliminar"
+        app:layout_constraintVertical_bias="0.265" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

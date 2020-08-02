@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.example.examen1bimestre">
+
+    <dist:module dist:instant="true" />
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,10 +14,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AcordesActivity"></activity>
-        <activity android:name=".CancionActivity" />
-        <activity android:name=".ListaCancionesActivity" />
-        <activity android:name=".AgregarCancionActivity" />
+        <activity android:name=".AgregarMusculoActivity"></activity>
+        <activity android:name=".MusculoCRUDActivity" />
+        <activity android:name=".MusculosActivity" />
+        <activity android:name=".EjercicioActivity" />
+        <activity android:name=".ListaEjerciciosActivity" />
+        <activity android:name=".AgregarEjercicioActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
