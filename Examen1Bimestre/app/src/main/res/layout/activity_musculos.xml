@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88CC698B"
+    tools:context=".MusculosActivity">
+
+    <Button
+        android:id="@+id/btn_musculos_a_lista"
+        android:layout_width="207dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:background="#432E67"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Lista Ejercicios"
+        android:textColor="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_agregar_a_main"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv_musculos"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/btn_musculos_a_main"
+        android:layout_width="187dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:background="#432E67"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Menu Principal"
+        android:textColor="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv_musculos"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/tv_musculos"
+        android:layout_width="377dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="#3C4059"
+        android:backgroundTint="#9A000000"
+        android:text="Músculo de Ejercicio"
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/lv_musculos"
+        android:layout_width="341dp"
+        android:layout_height="324dp"
+        android:layout_marginTop="24dp"
+        android:background="#97FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ejercicio_y_musculo">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_ejercicio_y_musculo"
+        android:layout_width="295dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FAFAFA"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_musculos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
