@@ -12,7 +12,7 @@ class ListaEjerciciosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lista_ejercicios2)
-        val listaEjercicios= BddService.listaEjercicios
+        val listaEjercicios= BddServicio.listaEjercicios
 
 
         val adaptador=ArrayAdapter(this,android.R.layout.simple_list_item_1,listaEjercicios)

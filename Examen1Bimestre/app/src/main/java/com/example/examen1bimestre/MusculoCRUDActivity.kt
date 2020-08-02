@@ -13,14 +13,14 @@ class MusculoCRUDActivity : AppCompatActivity() {
         val posicion= intent.getIntExtra("index",-1)
 
         if(posicion>-1){
-            var musculo:Musculo= BddService.recuperarMusculo(posicion)
+            var musculo:Musculo= BddServicio.recuperarMusculo(posicion)
             tv_nombre_musculo.text=musculo.nombre;
             tv_ubicacion.text=musculo.ubicacion;
             tv_masaM.text=musculo.masaMuscular;
             tv_definicion.text=musculo.definicion;
 
             btn_eliminar_musculo.setOnClickListener {
-                BddService.eliminarMusculo(musculo)
+                BddServicio.eliminarMusculo(musculo)
                 Toast.makeText(applicationContext,"Músculo eliminado", Toast.LENGTH_SHORT).show()
                 irAListMusculos()
             }

@@ -15,7 +15,7 @@ class EjercicioActivity : AppCompatActivity() {
         val musculo = "gluteo mayor"
 
         if(posicion>-1){
-            var ejercicio:Ejercicio= BddService.recuperarEjercicio(posicion)
+            var ejercicio:Ejercicio= BddServicio.recuperarEjercicio(posicion)
             tv_nombre.text=ejercicio.nombre;
             tv_duracion.text=ejercicio.duracion;
             tv_repeticiones.text=ejercicio.repeticiones;
@@ -23,7 +23,7 @@ class EjercicioActivity : AppCompatActivity() {
             tv_musculos.text = ejercicio.musculo;
 
             btn_eliminar.setOnClickListener {
-                BddService.eliminarEjercicio(ejercicio)
+                BddServicio.eliminarEjercicio(ejercicio)
                 Toast.makeText(applicationContext,"Ejercicio eliminado", Toast.LENGTH_SHORT).show()
                 irAListaEjercicios()
             }

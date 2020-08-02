@@ -16,13 +16,13 @@ class AgregarMusculoActivity : AppCompatActivity() {
         if (posicion > -1) {
             tv_agregar_modificar_c.text = "Modificar Músculo"
             btn_agregar_modificar.setText("MODIFICAR")
-            var musculo: Musculo = BddService.recuperarMusculo(posicion)
+            var musculo: Musculo = BddServicio.recuperarMusculo(posicion)
             et_nombre_musculo.setText(musculo.nombre)
             et_ubicacion_musculo.setText(musculo.ubicacion)
             et_masa_muscular.setText(musculo.masaMuscular)
             et_definicion.setText(musculo.definicion)
             btn_agregar_modificar.setOnClickListener {
-                BddService.modificarMusculo(
+                BddServicio.modificarMusculo(
                     posicion, Musculo(
                         et_nombre_musculo.text.toString(),
                         et_ubicacion_musculo.text.toString(),
@@ -38,7 +38,7 @@ class AgregarMusculoActivity : AppCompatActivity() {
             tv_agregar_modificar_c.text = "Añadir Músculo"
             btn_agregar_modificar.setText("AÑADIR")
             btn_agregar_modificar.setOnClickListener {
-                BddService.agregarMusculo(
+                BddServicio.agregarMusculo(
                     Musculo(
                         et_nombre_musculo.text.toString(),
                         et_ubicacion_musculo.text.toString(),

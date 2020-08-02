@@ -19,13 +19,13 @@ class AgregarEjercicioActivity : AppCompatActivity() {
             tv_agregar_modificar_c.text="Modificar Ejercicio"
             btn_agregar_modificar.setText("MODIFICAR")
             btn_agregar_musculo.setVisibility(View.GONE)
-            var ejercicio:Ejercicio= BddService.recuperarEjercicio(posicion)
+            var ejercicio:Ejercicio= BddServicio.recuperarEjercicio(posicion)
             et_nombre.setText(ejercicio.nombre)
             et_duracion.setText(ejercicio.duracion)
             et_repeticiones.setText(ejercicio.repeticiones)
             et_eliminaGrasa.setText(ejercicio.eliminaGrasa)
             btn_agregar_modificar.setOnClickListener {
-                BddService.modificarEjercicio(posicion, Ejercicio(
+                BddServicio.modificarEjercicio(posicion, Ejercicio(
                     et_nombre.text.toString(),
                     et_duracion.text.toString(),
                     et_repeticiones.text.toString(),
@@ -42,7 +42,7 @@ class AgregarEjercicioActivity : AppCompatActivity() {
             btn_agregar_musculo.setOnClickListener {
                 this.startActivity(Intent(this,AgregarMusculoActivity::class.java))}
             btn_agregar_modificar.setOnClickListener {
-                BddService.agregarEjercicio(Ejercicio(
+                BddServicio.agregarEjercicio(Ejercicio(
                     et_nombre.text.toString(),
                     et_duracion.text.toString(),
                     et_repeticiones.text.toString(),

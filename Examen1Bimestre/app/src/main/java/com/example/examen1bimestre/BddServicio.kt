@@ -1,6 +1,6 @@
 package com.example.examen1bimestre
 
-class BddService {
+class BddServicio {
     companion object{
         var listaEjercicios= arrayListOf<Ejercicio>(Ejercicio("Sentadillas","0.5","4","Sí", "Gluteo mayor"))
         var listaMusculos1 = arrayListOf<Musculo>(Musculo("gluteo mayor","gluteos","20.5","Sí"));

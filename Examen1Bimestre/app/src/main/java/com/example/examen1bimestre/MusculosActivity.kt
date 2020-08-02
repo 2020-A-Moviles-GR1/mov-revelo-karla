@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_musculos.*
 
 class MusculosActivity : AppCompatActivity() {
@@ -14,7 +13,7 @@ class MusculosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_musculos)
         val posicion= intent.getIntExtra("index",-1)
-        val listaMusculos= BddService.listaMusculos1
+        val listaMusculos= BddServicio.listaMusculos1
 
         val adaptador=ArrayAdapter(this,android.R.layout.simple_list_item_1,listaMusculos)
         lv_musculos.adapter=adaptador
