@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_fam.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/fam.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_dom.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/dom.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_b.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/b.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/layout_activity_agregar_musculo.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/layout/activity_agregar_musculo.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_lam.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/lam.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_f.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/f.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_inicio.jpg.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/inicio.jpg"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/layout_activity_lista_ejercicios2.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/layout/activity_lista_ejercicios2.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_g.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/g.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/layout_activity_musculo_crud.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/layout/activity_musculo_crud.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_mim.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/mim.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_solm.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/solm.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_d.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/d.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_guitarra2.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/guitarra2.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_c.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/c.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/layout_activity_musculos.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/layout/activity_musculos.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_guitarra_3.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/guitarra_3.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/layout_activity_agregar_ejercicio.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/layout/activity_agregar_ejercicio.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_rem.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/rem.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_a.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/a.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/layout_activity_ejercicio.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/layout/activity_ejercicio.xml"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_sim.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/sim.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_e.png.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/e.png"
+    },
+    {
+        "merged": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-karla/Examen1Bimestre/app/src/main/res/drawable/ic_launcher_background.xml"
+    }
+]
