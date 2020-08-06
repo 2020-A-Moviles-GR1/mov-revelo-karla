@@ -13,16 +13,33 @@ class IntentEnviaParametros : AppCompatActivity() {
         // Propiedad de la clase
 
         val numeroEncontrado = intent.getIntExtra(
-           "numero", 0
+            "numero", 0
         )
-        if(numeroEncontrado != 0){
+        if (numeroEncontrado != 0) {
             Log.i("intents", "El número encontrado es: ${numeroEncontrado}")
         }
 
         val textoCompartido: String? = intent.getStringExtra(Intent.EXTRA_TEXT)
 
-        if (textoCompartido != null){
+        if (textoCompartido != null) {
             Log.i("intents", "El texto es: ${textoCompartido}")
+        }
+
+        val maty = intent.getParcelableExtra<Mascota>("maty")
+        if(maty != null){
+            Log.i("parcelable", "${maty.nombre} ${maty.duenio?.nombre}")
+        }
+
+        val arregloMascotas = intent.getParcelableArrayListExtra<Mascota>("arregloMascotas")
+        if(arregloMascotas != null){
+            arregloMascotas.forEach {
+                if(it != null){
+                    Log.i("parcelable", "EN ARREGLO")
+                    Log.i("parcelable", "${it.nombre} ${it.duenio?.nombre}")
+                }
+
+            }
+
         }
 
         btn_devolver_respuesta
