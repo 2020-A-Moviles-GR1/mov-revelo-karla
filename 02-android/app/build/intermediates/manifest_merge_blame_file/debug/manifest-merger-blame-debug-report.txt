@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.moviles_1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:11:5-67
+17-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:12:5-79
+18-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:12:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/7345f62f6933bfbfe70b0b6c644df5f1/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/7345f62f6933bfbfe70b0b6c644df5f1/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/7345f62f6933bfbfe70b0b6c644df5f1/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+23
+24    <application
+24-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:14:5-62:19
+25        android:allowBackup="true"
+25-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:15:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/173f9208ffbdf9865c01df7b01988e09/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:16:9-43
+30        android:label="@string/app_name"
+30-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:17:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:18:9-54
+32        android:supportsRtl="true"
+32-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:19:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme"
+34-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:20:9-40
+35        android:usesCleartextTraffic="true" >
+35-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:21:9-44
+36
+37        <!--
+38             The API key for Google Maps-based APIs is defined as a string resource.
+39             (See the file "res/values/google_maps_api.xml").
+40             Note that the API key is linked to the encryption key used to sign the APK.
+41             You need a different API key for each encryption key, including the release key that is used to
+42             sign the APK for publishing.
+43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+44        -->
+45        <meta-data
+45-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:31:9-33:55
+46            android:name="com.google.android.geo.API_KEY"
+46-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:32:13-58
+47            android:value="@string/google_maps_key" />
+47-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:33:13-52
+48
+49        <activity
+49-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:35:9-37:68
+50            android:name="com.example.moviles_1.MapsActivity"
+50-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:36:13-41
+51            android:label="@string/title_activity_maps" />
+51-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:37:13-56
+52        <activity android:name="com.example.moviles_1.RecyclerVIewActivity" />
+52-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:38:9-58
+52-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:38:19-55
+53        <activity android:name="com.example.moviles_1.HttpActivity" />
+53-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:39:9-50
+53-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:39:19-47
+54        <activity android:name="com.example.moviles_1.IntentEnviaParametrosActivity" >
+54-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:40:9-48:20
+54-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:40:19-64
+55            <intent-filter>
+55-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:41:13-47:29
+56                <action android:name="android.intent.action.SEND" />
+56-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:42:17-69
+56-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:42:25-66
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:44:17-76
+58-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:44:27-73
+59
+60                <data android:mimeType="text/plain" />
+60-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:46:17-55
+60-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:46:23-52
+61            </intent-filter>
+62        </activity>
+63        <activity android:name="com.example.moviles_1.BListViewActivity" />
+63-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:49:9-55
+63-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:49:19-52
+64        <activity android:name="com.example.moviles_1.CicloVida1" />
+64-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:50:9-48
+64-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:50:19-45
+65        <activity
+65-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:51:9-54:59
+66            android:name="com.example.moviles_1.CicloVida"
+66-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:52:13-38
+67            android:label="@string/title_activity_ciclo_vida"
+67-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:53:13-62
+68            android:theme="@style/AppTheme.NoActionBar" />
+68-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:54:13-56
+69        <activity android:name="com.example.moviles_1.MainActivity" >
+69-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:55:9-61:20
+69-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:55:19-47
+70            <intent-filter>
+70-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:56:13-60:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:57:17-69
+71-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:57:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:59:17-77
+73-->/home/dev-16/Documentos/Universidad/Móviles-Revelo-Karla/mov-revelo-herrera-karla/02-android/app/src/main/AndroidManifest.xml:59:27-74
+74            </intent-filter>
+75        </activity>
+76        <!-- Needs to be explicitly declared on P+ -->
+77        <uses-library
+77-->[com.google.android.gms:play-services-maps:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/7345f62f6933bfbfe70b0b6c644df5f1/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+78            android:name="org.apache.http.legacy"
+78-->[com.google.android.gms:play-services-maps:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/7345f62f6933bfbfe70b0b6c644df5f1/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+79            android:required="false" />
+79-->[com.google.android.gms:play-services-maps:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/7345f62f6933bfbfe70b0b6c644df5f1/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/b1beed74396dcf2ff7139271bbe8d64c/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/b1beed74396dcf2ff7139271bbe8d64c/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/b1beed74396dcf2ff7139271bbe8d64c/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/b1beed74396dcf2ff7139271bbe8d64c/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/93be7174b7be54dada154bbbe746f6ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/93be7174b7be54dada154bbbe746f6ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:17.0.0] /home/dev-16/.gradle/caches/transforms-2/files-2.1/93be7174b7be54dada154bbbe746f6ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+89    </application>
+90
+91</manifest>
